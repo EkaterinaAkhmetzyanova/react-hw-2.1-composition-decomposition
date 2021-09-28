@@ -1,0 +1,96 @@
+* {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.MainPage {
+  width: 600px;
+}
+
+.NewsSection, .Date, .NewsList, .Promo, .PromoBanner, .Search, .SearchWidget, .SearchLogo, .SearchInput, .WeatherWidget, .WidgetSection {
+  border: 1px solid #000;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.NewsSection {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.NewsOptions {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.Promo {
+  display: flex;
+  flex-direction: column;
+}
+
+.PromoBanner {
+  height: 40px;
+}
+
+.WidgetItem {
+  padding: 8px;
+}
+
+.SearchWidget {
+  display: flex;
+  align-items: flex-start;
+}
+
+.SearchLogo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.SearchOptions {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.SearchItem {
+  margin-right: 8px;
+}
+
+.SearchInput {
+  height: 30px;
+}
+
+.WidgetSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.Weather {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.WidgetItem {
+  height: 110px;
+  width: 120px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+
